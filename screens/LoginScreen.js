@@ -15,7 +15,7 @@ import {
 import LinearGradient from 'react-native-linear-gradient';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import colors from '../constants/colors';
-import { getDBConnection, loginUser } from '../utils/database';
+import { getDBConnection, loginUser } from '../database/database';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function LoginScreen({ navigation }) {
