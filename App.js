@@ -3,7 +3,7 @@ import { StatusBar, useColorScheme } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { getDBConnection, createTables } from './utils/database';
+import { getDBConnection, createTables } from './database/database';
 
 // Import Screens
 import LoadingScreen from './screens/LoadingScreen';
