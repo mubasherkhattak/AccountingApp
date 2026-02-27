@@ -1,4 +1,9 @@
 {
   "name": "BroadwayMallApp",
-  "displayName": "BroadwayMallApp"
+  "displayName": "BroadwayMallApp",
+  "extra": {
+    "eas": {
+      "projectId": "66daccc9-e776-487e-b30b-1469c5246d06"
+    }
+  }
 }
